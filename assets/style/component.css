@@ -1,0 +1,25 @@
+/* Header */
+
+.large-header {
+	position: relative;
+	width: 100%;
+	opacity: 20%;
+	background-image: rgb(0, 0, 0);
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+p {
+	z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}
