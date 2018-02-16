@@ -13,6 +13,253 @@
     src: url("./assets/font/Montserrat-Italic.otf");
 }
 
+.pousse {
+    margin-top: 50vh;
+}
+
+.headermobile {
+    background-color: #000000;
+    width: 100vw;
+    height: 9vh;
+}
+
+.logo {
+    z-index: 1;
+    width: 30vw;
+    height: 6vh;
+    margin-left: 34vw;
+    margin-top: 1.5vh;
+    position: absolute;
+}
+
+.firstimage {
+    width: 100vw;
+    height: 45vh;
+    margin-top: -1.vh;
+    margin-left: 0vw;
+    position: absolute;
+    filter: brightness(0.9);
+}
+
+.concepttitre {
+    margin-left: 4vw;
+    font-size: 0.9em;
+    margin-top: 6vh;
+    position: absolute;
+    z-index: 1;
+    font-weight: normal;
+}
+
+.textconcept {
+    width: 32vw;
+    margin-top: 15vh;
+    position: absolute;
+    margin-left: 3vw;
+    font-size: 0.7em;
+}
+
+.barre1 {
+    position: absolute;
+    margin-top: 45vh;
+}
+
+.ni {
+    margin-left: -50vw;
+}
+
+.realitytitre {
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-left: -40vw;
+}
+
+.textreality {
+    position: absolute;
+    margin-top: -36vh;
+    width: 40vw;
+    font-size: 0.75em;
+    text-align: initial;
+    margin-left: 5vw;
+}
+
+.djimage {
+    margin-top: -11.75vh;
+    width: 41vw;
+    height: 36.7vh;
+    position: absolute;
+    margin-left: -50vw;
+}
+
+.titreintro {
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-left: 30vw;
+    margin-top: 5vh;
+}
+
+.textintro {
+    width: 40vw;
+    height: 15vh;
+    margin-left: 50vw;
+    margin-top: 10vh;
+    font-size: 0.8em;
+    text-align: initial;
+}
+
+.titreplatines {
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-left: 30vw;
+    margin-top: 10vh;
+}
+
+.textplatines {
+    width: 40vw;
+    height: 15vh;
+    margin-left: 45vw;
+    margin-top: 7vh;
+    font-size: 0.8em;
+    text-align: initial;
+}
+
+.bornedj {
+    margin-top: -12vw;
+    width: 41vw;
+    height: 37.9vh;
+    position: absolute;
+    margin-left: -50vw;
+}
+
+.barre2 {
+    margin-top: 6vh;
+}
+
+.titreexperience {
+    font-weight: initial;
+    font-size: 0.9em;
+    margin-top: 18vh;
+    margin-left: 34vw;
+}
+
+.souligner {
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    position: absolute;
+    height: 0.2vh;
+    width: 39vw;
+    margin-left: 48vw;
+    margin-top: -1vh;
+}
+
+.textexperience {
+    width: 57vw;
+    height: 5vh;
+    margin-left: 42vw;
+    margin-top: 13vh;
+    text-align: initial;
+    font-size: 0.8em;
+}
+
+.agentboseimage {
+    position: absolute;
+    width: 80vw;
+    height: 52.82vh;
+    margin-left: -81vw;
+    margin-top: -9.3vh;
+}
+
+.barre3 {
+    margin-top: 27.5vh;
+}
+
+.casquesilent {
+    width: 100vw;
+    height: 35vh;
+    position: absolute;
+    margin-left: -50vw;
+    margin-top: 14vh;
+}
+
+.titrerecompense {
+    font-weight: initial;
+    color: #FFFFFF;
+    z-index: 1;
+    margin-top: 32vh;
+    margin-left: 2vw;
+    position: absolute;
+}
+
+.textrecompense {
+    z-index: 1;
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 5vw;
+    color: #FFFFFF;
+    text-align: initial;
+}
+
+.beurk {
+    height: 56vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    margin-top: 30vh;
+}
+
+.souligner2 {
+    background-color: #FFFFFF;
+    width: 80vw;
+    height: 0.3vh;
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 10vw;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.titrevivez {
+    font-weight: initial;
+    z-index: 1;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 65vh;
+    margin-left: 14vw;
+}
+
+.textvivez {
+    font-weight: initial;
+    z-index: 1;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 75vh;
+    margin-left: 2vw;
+    font-weight: normal;
+    text-align: initial;
+}
+
+#desktop {
+    display: none;
+}
+
+.block {
+    width: 100vw;
+}
+
+.headermobile {
+    background-color: #000000;
+    width: 100vw;
+    height: 9vh;
+}
+
+.logo {
+    z-index: 1;
+    width: 30vw;
+    height: 6vh;
+    margin-left: 34vw;
+    margin-top: 1.5vh;
+    position: absolute;
+}
+
 body {
     font-family: "Montserrat";
 }
@@ -43,10 +290,6 @@ body {
 .petittitre {
     font-family: Montserrat;
     font-size: 1.3em;
-}
-
-#desktop {
-    display: none;
 }
 
 .bose-white {
@@ -187,10 +430,6 @@ body {
     font-family: Montserrat;
 }
 
-img {
-    display: none;
-}
-
 .agents {
     display: none;
 }
@@ -276,7 +515,7 @@ hr {
     background-color: aqua;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 624px) {
     .agents {
         margin-left: 58vw;
         margin-top: -42vw;
@@ -291,6 +530,9 @@ hr {
     #mobile {
         display: none;
     }
+    #desktop {
+        display: block;
+    }
     .text {
         display: block;
     }
@@ -301,9 +543,6 @@ hr {
         display: block;
     }
     .agents {
-        display: block;
-    }
-    #desktop {
         display: block;
     }
     body {
@@ -349,7 +588,7 @@ hr {
         font-family: Monsterrat,
     }
     .italic {
-        font-size: 1.5em;
+        font-size: 2vw;
         font-style: italic;
     }
     p {
@@ -417,7 +656,7 @@ hr {
         background: #000000;
     }
     .page3 {
-        height: 50vw;
+        height: 45vw;
         width: 100vw;
     }
     .page4 {
@@ -441,11 +680,27 @@ hr {
         height: 45vw;
     }
     .reality {
-        position: absolute;
         margin-left: 6vw;
-        margin-top: 15vw;
+        margin-top: 14vw;
+        position: absolute;
         font-weight: bold;
         font-size: 2.3vw;
+        transition: ease-in-out 0.5s;
+    }
+    .mash {
+        font-size: 2.3vw;
+        transition: ease-in-out 0.5s;
+    }
+    .mash:hover {
+        margin-left: 3vw;
+        font-size: 2.7vw;
+    }
+    .masho {
+        font-size: 2.3vw;
+        transition: ease-in-out 0.5s;
+    }
+    .masho:hover {
+        font-size: 2.7vw;
     }
     .absolute {
         position: absolute;
@@ -537,9 +792,6 @@ hr {
         top: -48px;
         position: relative;
     }
-    p {
-        font-family: Monts
-    }
     .changesomething {
         width: 15.3vw;
         height: 31.8vw;
@@ -565,6 +817,9 @@ hr {
         margin-top: 32vw;
         margin-left: 4vw;
         z-index: 1;
+    }
+    .desktop {
+        display: block;
     }
     .coole {
         color: white;
@@ -654,16 +909,20 @@ hr {
         text-align: center;
     }
     .picto {
-        margin-left: 5vw;
         margin-top: 1vw;
     }
     .witho {
-        width: 7vw;
+        cursor: pointer;
+        width: 10vw;
         height: 7vw;
     }
     .marginleft {
         margin-top: 2vw;
-        margin-left: 15vw;
+        margin-left: 11vw;
+    }
+    .marginlefto {
+        margin-top: 2vw;
+        margin-left: 20vw;
     }
     .right {
         margin-left: 6vw;
@@ -715,10 +974,10 @@ hr {
     }
     .cooled {
         width: 50vw;
-        height: 50vw;
+        height: 48vw;
     }
     .marginleft {
-        margin-left: 18vw;
+        margin-left: 10vw;
     }
     .buttonswag {
         background-color: #313131;
@@ -736,7 +995,7 @@ hr {
         margin-left: 35vw;
         position: absolute;
         width: 65vw;
-        height: 50vw;
+        height: 48vw;
         background: linear-gradient(to right, transparent, white 20%);
     }
     p {
@@ -788,5 +1047,27 @@ hr {
     .facebook {
         margin-top: 2vw;
         width: 30vw;
+    }
+    .bx-wrapper {
+        margin-left: 0px;
+        border: none;
+    }
+    .casque {
+        filter: blur(10px) brightness(0.4);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .casque:hover {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+    }
+    .firstimage {
+        filter: blur(10px) brightness(0.8);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .firstimage:hover {
+        -webkit-filter: blur(0);
+        filter: blur(0);
     }
 }
